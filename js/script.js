@@ -59,7 +59,7 @@ video.addEventListener("ended", () => {
   });
 });
 
-const weddingDate = new Date("2026-08-17T10:30:00").getTime();
+const weddingDate = new Date("2026-08-19T09:30:00").getTime();
 
 function updateCard(id, value) {
   const element = document.getElementById(id);
@@ -111,7 +111,7 @@ window.addEventListener("scroll", () => {
 const petalContainer = document.querySelector(".petal-container");
 const PETAL_COUNT = 30;
 const petalChars = ["❀", "✿", "✾", "❁"];
-const petalColors = ["#f9a8c9", "#ec3ea7", "#d4679a", "#f7c6dd", "#e06dac", "#fbc8dd"];
+const petalColors = ["#d42030", "#b01020", "#e05050", "#c82020", "#a01015", "#f08080"];
 
 function createPetal() {
   const petal = document.createElement("span");

@@ -21,33 +21,33 @@ body {
       rgba(255, 230, 180, 0.03) 15%,
       transparent 28%
     ),
-    /* Pink glow */
+    /* Red glow */
     radial-gradient(
         circle at 12% 8%,
-        rgba(255, 180, 210, 0.06) 0%,
+        rgba(255, 140, 140, 0.06) 0%,
         transparent 25%
       ),
-    /* Purple glow */
+    /* Crimson glow */
     radial-gradient(
         circle at 50% 45%,
-        rgba(120, 70, 210, 0.08) 0%,
+        rgba(180, 20, 30, 0.08) 0%,
         transparent 40%
       ),
     /* Bottom glow */
     radial-gradient(
         circle at 50% 100%,
-        rgba(120, 70, 210, 0.15) 0%,
+        rgba(180, 20, 30, 0.15) 0%,
         transparent 45%
       ),
     /* Main background */
     linear-gradient(
         180deg,
-        #090411 0%,
-        #12081f 20%,
-        #1b0f2e 40%,
-        #261543 60%,
-        #321c56 80%,
-        #41256c 100%
+        #0d0404 0%,
+        #180707 20%,
+        #220a0a 40%,
+        #2e0e0e 60%,
+        #3a1111 80%,
+        #4c1515 100%
       );
 
   background-repeat: no-repeat;
@@ -178,7 +178,7 @@ section {
 }
 
 .flowers {
-  color: #ddb0bf;
+  color: #d4a0a0;
   font-size: 18px;
   letter-spacing: 10px;
 }
@@ -328,10 +328,10 @@ section {
 
   background: radial-gradient(
     circle at 50% 35%,
-    rgba(255, 220, 235, 0.9) 0%,
-    rgba(234, 204, 240, 0.65) 35%,
-    rgba(212, 188, 232, 0.45) 60%,
-    #d5c2e7 100%
+    rgba(255, 235, 235, 0.9) 0%,
+    rgba(252, 210, 210, 0.65) 35%,
+    rgba(240, 195, 195, 0.45) 60%,
+    #e8c0c0 100%
   );
 }
 
@@ -387,7 +387,7 @@ section {
 }
 
 .family-line span {
-  color: #866b61;
+  color: #7a3535;
   font-weight: 500;
 }
 
@@ -409,7 +409,7 @@ section {
   border-radius: 50%;
   background: radial-gradient(
     circle,
-    rgba(236, 62, 167, 0.18) 0%,
+    rgba(200, 20, 40, 0.18) 0%,
     transparent 70%
   );
   filter: blur(30px);
@@ -423,7 +423,7 @@ section {
   font-size: 4rem;
   font-weight: 600;
   letter-spacing: 6px;
-  color: #8d1c7b;
+  color: #8b1515;
   line-height: 1;
   text-transform: uppercase;
   text-shadow:
@@ -443,13 +443,13 @@ section {
   font-family: "Pinyon Script", cursive;
   font-size: 2rem;
   font-weight: 400;
-  color: #ec3ea7;
+  color: #d42030;
 }
 
 .line {
   width: 70px;
   height: 1px;
-  background: #ec3ea7;
+  background: #d42030;
 }
 
 .designation {
@@ -472,7 +472,7 @@ section {
   font-size: 1.4rem;
   font-style: italic;
   font-weight: 400;
-  color: #6d5555;
+  color: #6d3535;
 }
 
 .invite-subtitle {
@@ -480,7 +480,7 @@ section {
   font-size: 1.1rem;
   font-style: italic;
   font-weight: 300;
-  color: #9a7a7a;
+  color: #9a6060;
   margin-top: 6px;
   letter-spacing: 0.5px;
 }
@@ -493,33 +493,33 @@ section {
   font-family: "Cormorant Garamond", serif;
   font-size: 4.2rem;
   font-weight: 400;
-  color: #8b64c4;
+  color: #9b1515;
   line-height: 1;
   letter-spacing: 1px;
-  text-shadow: 0 2px 10px rgba(139, 100, 196, 0.15);
+  text-shadow: 0 2px 10px rgba(155, 21, 21, 0.15);
 }
 
 .date {
   font-family: "Cormorant Garamond", serif;
   font-size: 3.2rem;
   font-weight: 400;
-  color: #8b64c4;
+  color: #9b1515;
   letter-spacing: 0.5px;
-  text-shadow: 0 2px 8px rgba(210, 170, 97, 0.15);
+  text-shadow: 0 2px 8px rgba(155, 21, 21, 0.15);
 }
 
 .venue {
   font-family: "Cormorant Garamond", serif;
   font-size: 1.5rem;
   font-style: italic;
-  color: #8b64c4;
+  color: #9b1515;
 }
 
 .time {
   font-family: "Cormorant Garamond", serif;
   font-size: 1.5rem;
   font-style: italic;
-  color: #8b64c4;
+  color: #9b1515;
 }
 
 @media (max-width: 1024px) {
@@ -699,7 +699,7 @@ section {
   justify-content: center;
   align-items: center;
   padding: 80px 20px;
-  background: #f9dff1;
+  background: #fde8e8;
 }
 
 /* ---------- HEADING ---------- */
@@ -716,13 +716,13 @@ section {
   font-size: 12px;
   letter-spacing: 6px;
   text-transform: uppercase;
-  color: #a36a8d;
+  color: #993333;
 }
 
 .title-line {
   width: 60px;
   height: 1px;
-  background: #d6b8c8;
+  background: #d8a0a0;
 }
 
 .countdown-title {
@@ -748,7 +748,7 @@ section {
   text-align: center;
   font-family: "Cormorant Garamond", serif;
   font-size: 2.1rem;
-  color: #8d1c7b;
+  color: #8b1515;
   margin-bottom: 28px;
   font-weight: 600;
 }
@@ -787,7 +787,7 @@ section {
   margin: auto;
   border-radius: 14px;
   background: rgba(255, 255, 255, 0.65);
-  border: 1px solid #ead8e5;
+  border: 1px solid #f0d5d5;
   font-family: "Cormorant Garamond", serif;
   font-size: 22px;
   font-weight: 600;
@@ -813,13 +813,13 @@ section {
 
 /* Wedding Day */
 .calendar-grid .selected {
-  background: linear-gradient(180deg, #ec3ea7, #c71b88);
+  background: linear-gradient(180deg, #d42030, #a01020);
   color: #fff;
   font-weight: 700;
   border: none;
   transform: scale(1.08);
   box-shadow:
-    0 14px 28px rgba(199, 27, 136, 0.35),
+    0 14px 28px rgba(180, 20, 30, 0.35),
     inset 0 2px 4px rgba(255, 255, 255, 0.3);
 }
 
@@ -888,7 +888,7 @@ section {
   font-size: 5rem;
   font-weight: 600;
   line-height: 1;
-  color: #8d1c7b;
+  color: #8b1515;
   transform-origin: top center;
   backface-visibility: hidden;
 }
@@ -899,7 +899,7 @@ section {
   font-size: 12px;
   letter-spacing: 5px;
   text-transform: uppercase;
-  color: #8d1c7b;
+  color: #8b1515;
   font-weight: 500;
 }
 
@@ -935,7 +935,7 @@ section {
 }
 
 .flip-card:hover span {
-  color: #8d1c7b;
+  color: #8b1515;
 
   transition: 0.3s;
 }
@@ -1171,10 +1171,10 @@ section {
     ),
     radial-gradient(
       circle at bottom right,
-      rgba(215, 180, 255, 0.18) 0%,
+      rgba(255, 180, 180, 0.18) 0%,
       transparent 40%
     ),
-    linear-gradient(180deg, #f8f2fb 0%, #f2e6f7 30%, #ebe0f4 65%, #f9f4fb 100%);
+    linear-gradient(180deg, #fdf5f5 0%, #f9e8e8 30%, #f4dede 65%, #fdf7f7 100%);
 }
 
 .couple::before {
@@ -1185,7 +1185,7 @@ section {
   top: -250px;
   left: -250px;
   border-radius: 50%;
-  background: rgba(160, 120, 220, 0.22);
+  background: rgba(200, 60, 60, 0.15);
   filter: blur(140px);
 }
 
@@ -1195,7 +1195,7 @@ section {
   width: 450px;
   height: 450px;
   border-radius: 50%;
-  background: rgba(255, 182, 220, 0.15);
+  background: rgba(255, 170, 170, 0.15);
   filter: blur(90px);
   bottom: -180px;
   right: -180px;
@@ -1214,13 +1214,13 @@ section {
   font-size: 12px;
   letter-spacing: 6px;
   text-transform: uppercase;
-  color: #b17694;
+  color: #a84040;
 }
 
 .couple-header .line {
   width: 70px;
   height: 1px;
-  background: #dcb9ca;
+  background: #d8a0a0;
 }
 
 /* Couple Names */
@@ -1315,55 +1315,6 @@ section {
   }
 }
 
-/*---------- CEREMONY SECTION ----------*/
-.ceremony-section {
-  position: relative;
-  overflow: hidden;
-  min-height: 100vh;
-  padding: 100px 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background:
-    radial-gradient(
-      circle at top left,
-      rgba(170, 120, 225, 0.12),
-      transparent 35%
-    ),
-    radial-gradient(
-      circle at bottom right,
-      rgba(255, 205, 225, 0.18),
-      transparent 40%
-    ),
-    linear-gradient(180deg, #fcfbfd 0%, #f7f0fa 45%, #fffdfd 100%);
-}
-
-.ceremony-section::before {
-  content: "";
-  position: absolute;
-  width: 650px;
-  height: 650px;
-  left: -260px;
-  top: -260px;
-  border-radius: 50%;
-  background: rgba(171, 123, 223, 0.18);
-  filter: blur(130px);
-}
-
-.ceremony-section::after {
-  content: "";
-  position: absolute;
-  width: 550px;
-  height: 550px;
-  right: -220px;
-  bottom: -220px;
-  border-radius: 50%;
-  background: rgba(255, 205, 230, 0.18);
-  filter: blur(130px);
-}
-
 .section-title {
   display: flex;
   align-items: center;
@@ -1377,14 +1328,14 @@ section {
 .section-title span {
   width: 70px;
   height: 1px;
-  background: #dcb7d7;
+  background: #d8a0a0;
 }
 
 .section-title p {
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
   letter-spacing: 6px;
-  color: #9b7291;
+  color: #994040;
 }
 
 .section-heading {
@@ -1408,228 +1359,6 @@ section {
   z-index: 2;
 }
 
-/*---------- Card ----------*/
-.timeline {
-  width: 100%;
-  max-width: 980px;
-  position: relative;
-  z-index: 2;
-}
-
-.timeline::before {
-  display: none;
-}
-
-.timeline-item {
-  display: block;
-}
-
-.timeline-content {
-  background: rgba(255, 255, 255, 0.82);
-  backdrop-filter: blur(15px);
-  border-radius: 30px;
-  padding: 22px;
-  border: 1px solid rgba(235, 225, 235, 0.8);
-  box-shadow:
-    0 25px 70px rgba(0, 0, 0, 0.08),
-    0 8px 25px rgba(175, 130, 180, 0.08);
-  transition: 0.45s;
-}
-
-.timeline-content:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 35px 90px rgba(175, 130, 180, 0.18);
-}
-
-/*---------- Image ----------*/
-.ceremony-image {
-  display: block;
-  width: 100%;
-  height: 700px;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 22px;
-  margin-bottom: 28px;
-}
-
-.ceremony-date {
-  display: block;
-  margin-bottom: 16px;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 12px;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  color: #b58b95;
-}
-
-.timeline-content h3 {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 58px;
-  font-weight: 500;
-  color: #372726;
-  margin-bottom: 15px;
-}
-
-.timeline-content .time {
-  display: block;
-  margin-bottom: 22px;
-  font-size: 40px;
-  font-family: "Cormorant Garamond", serif;
-  font-style: italic;
-  letter-spacing: 4px;
-  color: #cf9a55;
-}
-
-.timeline-content p {
-  max-width: 650px;
-  margin: auto;
-  font-size: 25px;
-  line-height: 2;
-  color: #7c6765;
-}
-
-.timeline-content:hover {
-  transform: scale(1.02);
-  transition: 0.5s;
-}
-
-@media (max-width: 1200px) {
-  .timeline {
-    max-width: 900px;
-  }
-
-  .section-heading {
-    font-size: 4.5rem;
-  }
-}
-
-@media (max-width: 992px) {
-  .ceremony-section {
-    padding: 90px 25px;
-  }
-
-  .section-heading {
-    font-size: 4rem;
-  }
-
-  .section-description {
-    font-size: 20px;
-  }
-
-  .timeline-content {
-    padding: 18px;
-  }
-
-  .timeline-content h3 {
-    font-size: 46px;
-  }
-
-  .timeline-content p {
-    font-size: 17px;
-  }
-}
-
-@media (max-width: 768px) {
-  .ceremony-section {
-    padding: 80px 18px;
-    min-height: auto;
-  }
-
-  .section-title span {
-    width: 40px;
-  }
-
-  .section-title p {
-    letter-spacing: 4px;
-    font-size: 11px;
-  }
-
-  .section-heading {
-    font-size: 3rem;
-    line-height: 1.2;
-  }
-
-  .section-description {
-    font-size: 17px;
-    margin-bottom: 40px;
-  }
-
-  .timeline-content {
-    padding: 16px;
-    border-radius: 22px;
-  }
-
-  .ceremony-image {
-    height: 300px;
-    border-radius: 18px;
-    margin-bottom: 20px;
-  }
-
-  .ceremony-date {
-    font-size: 10px;
-    letter-spacing: 3px;
-  }
-
-  .timeline-content h3 {
-    font-size: 38px;
-  }
-
-  .timeline-content .time {
-    font-size: 18px;
-    margin-bottom: 16px;
-  }
-
-  .timeline-content p {
-    font-size: 15px;
-    line-height: 1.8;
-  }
-}
-
-@media (max-width: 480px) {
-  .ceremony-section {
-    padding: 70px 15px;
-  }
-
-  .section-heading {
-    font-size: 2.4rem;
-  }
-
-  .section-description {
-    font-size: 15px;
-  }
-
-  .timeline-content {
-    padding: 14px;
-    border-radius: 18px;
-  }
-
-  .ceremony-image {
-    height: 220px;
-    border-radius: 16px;
-  }
-
-  .timeline-content h3 {
-    font-size: 2rem;
-  }
-
-  .timeline-content .time {
-    font-size: 16px;
-
-    letter-spacing: 2px;
-  }
-
-  .timeline-content p {
-    font-size: 14px;
-    line-height: 1.7;
-  }
-
-  .ceremony-date {
-    font-size: 9px;
-    letter-spacing: 2px;
-  }
-}
-
 /*-------------------- LOCATION SECTION --------------------*/
 .location-section {
   position: relative;
@@ -1640,20 +1369,18 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
-  position: relative;
-  overflow: hidden;
   background:
     radial-gradient(
       circle at top left,
-      rgba(177, 135, 223, 0.15),
+      rgba(200, 40, 40, 0.12),
       transparent 35%
     ),
     radial-gradient(
       circle at bottom right,
-      rgba(255, 208, 228, 0.18),
+      rgba(255, 185, 185, 0.18),
       transparent 40%
     ),
-    linear-gradient(180deg, #fbf8fc 0%, #f6effb 55%, #fffdfd 100%);
+    linear-gradient(180deg, #fdf8f8 0%, #faf0f0 55%, #fffdfd 100%);
 }
 .location-section::before {
   content: "";
@@ -1663,7 +1390,7 @@ section {
   left: -250px;
   top: -250px;
   border-radius: 50%;
-  background: rgba(170, 130, 220, 0.15);
+  background: rgba(200, 40, 40, 0.12);
   filter: blur(130px);
 }
 
@@ -1675,7 +1402,7 @@ section {
   right: -220px;
   bottom: -220px;
   border-radius: 50%;
-  background: rgba(255, 210, 230, 0.18);
+  background: rgba(255, 185, 185, 0.18);
   filter: blur(120px);
 }
 
@@ -1698,7 +1425,7 @@ section {
   padding: 40px;
   background: rgba(255, 255, 255, 0.88);
   backdrop-filter: blur(18px);
-  border: 1px solid rgba(235, 225, 235, 0.8);
+  border: 1px solid rgba(240, 210, 210, 0.8);
   border-radius: 30px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
   transition: 0.35s;
@@ -1706,7 +1433,7 @@ section {
 
 .location-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 30px 70px rgba(180, 145, 200, 0.16);
+  box-shadow: 0 30px 70px rgba(180, 50, 50, 0.15);
 }
 
 .location-item {
@@ -1725,7 +1452,7 @@ section {
   font-size: 16px;
   letter-spacing: 5px;
   text-transform: uppercase;
-  color: #b88b95;
+  color: #a85555;
 }
 
 .location-item h3 {
@@ -1733,7 +1460,7 @@ section {
   font-size: 48px;
   font-weight: 400;
   line-height: 1.2;
-  color: #8d3b8d;
+  color: #8b1515;
 }
 
 .location-item h4 {
@@ -1741,7 +1468,7 @@ section {
   font-size: 36px;
   font-weight: 500;
   line-height: 1.2;
-  color: #922f93;
+  color: #8b1515;
 }
 
 .location-item p {
@@ -1754,7 +1481,7 @@ section {
   width: 100%;
   height: 1px;
   margin: 18px 0;
-  background: #efe2e7;
+  background: #f0d5d5;
 }
 
 .location-btn {
@@ -1772,13 +1499,13 @@ section {
   letter-spacing: 3px;
   text-transform: uppercase;
   color: #fff;
-  background: linear-gradient(135deg, #96278d, #c86daf);
+  background: linear-gradient(135deg, #9b1515, #d04040);
   transition: 0.35s;
 }
 
 .location-btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 18px 35px rgba(190, 100, 170, 0.35);
+  box-shadow: 0 18px 35px rgba(180, 30, 30, 0.35);
 }
 
 /* ---------------------------- MAP ---------------------------- */
@@ -1800,7 +1527,7 @@ section {
 
 .location-map iframe:hover {
   transform: translateY(-6px);
-  box-shadow: 0 30px 70px rgba(180, 145, 200, 0.16);
+  box-shadow: 0 30px 70px rgba(180, 50, 50, 0.15);
 }
 
 @media (max-width: 992px) {
@@ -1916,15 +1643,15 @@ section {
   background:
     radial-gradient(
       circle at top left,
-      rgba(190, 160, 255, 0.15),
+      rgba(200, 40, 40, 0.12),
       transparent 35%
     ),
     radial-gradient(
       circle at bottom right,
-      rgba(255, 210, 230, 0.18),
+      rgba(255, 185, 185, 0.18),
       transparent 40%
     ),
-    linear-gradient(180deg, #fffdfd, #f8f2fb, #fffefe);
+    linear-gradient(180deg, #fffdfd, #fdf5f5, #fffefe);
 
   text-align: center;
   position: relative;
@@ -1936,7 +1663,7 @@ section {
   margin: 20px auto 0;
   background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(18px);
-  border: 1px solid rgba(235, 225, 235, 0.8);
+  border: 1px solid rgba(240, 210, 210, 0.8);
   border-radius: 28px;
   padding: 60px;
   box-shadow: 0 25px 70px rgba(0, 0, 0, 0.08);
@@ -1946,7 +1673,7 @@ section {
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
   letter-spacing: 5px;
-  color: #b88b95;
+  color: #a85555;
   text-transform: uppercase;
   margin-bottom: 18px;
 }
@@ -1954,7 +1681,7 @@ section {
 .rsvp-card h1 {
   font-family: "Cormorant Garamond", serif;
   font-size: 64px;
-  color: #7d2c7d;
+  color: #8b1515;
   font-weight: 400;
   margin-bottom: 35px;
 }
@@ -1963,7 +1690,7 @@ section {
   width: 120px;
   height: 1px;
   margin: 0 auto 45px;
-  background: #e7d7e7;
+  background: #f0d5d5;
 }
 
 .contact-grid {
@@ -1976,13 +1703,13 @@ section {
   padding: 30px;
   border-radius: 20px;
   background: #fff;
-  border: 1px solid #f0e3ee;
+  border: 1px solid #f5e0e0;
   transition: 0.35s;
 }
 
 .contact-box:hover {
   transform: translateY(-6px);
-  box-shadow: 0 18px 40px rgba(170, 130, 190, 0.15);
+  box-shadow: 0 18px 40px rgba(180, 50, 50, 0.15);
 }
 
 .contact-box small {
@@ -1990,7 +1717,7 @@ section {
   margin-bottom: 12px;
   font-size: 11px;
   letter-spacing: 4px;
-  color: #c28da4;
+  color: #b06060;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -2003,7 +1730,7 @@ section {
 
 .contact-box a {
   text-decoration: none;
-  color: #9b3f92;
+  color: #9b1515;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 18px;
@@ -2224,6 +1951,3 @@ section {
     padding: 22px;
   }
 }
-
-
-
