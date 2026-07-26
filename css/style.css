@@ -1243,8 +1243,9 @@ section {
 
 .couple-photo img {
   width: 100%;
-  height: 500px; /* Adjust as needed */
+  height: 500px;
   object-fit: cover;
+  object-position: top;
   border-radius: 20px;
   display: block;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
