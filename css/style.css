@@ -1245,7 +1245,7 @@ section {
   width: 100%;
   height: 500px;
   object-fit: cover;
-  object-position: top;
+  object-position: center;
   border-radius: 20px;
   display: block;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
@@ -1293,7 +1293,7 @@ section {
   }
 
   .couple-photo img {
-    height: 260px;
+    height: 320px;
     border-radius: 16px;
   }
 }
@@ -1308,7 +1308,7 @@ section {
   }
 
   .couple-photo img {
-    height: 200px;
+    height: 260px;
     border-radius: 14px;
   }
 
